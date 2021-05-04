@@ -1,0 +1,164 @@
+html.background {
+  background-color: green;
+  border-radius: 75px;
+  border: 15px solid green;
+}
+
+
+body.background {
+  opacity: 100%;
+  background: url('slike/pagebg.png') repeat;
+  border-radius: 75px;
+  border: 45px solid black;
+}
+
+
+
+
+
+.fixed {
+  position: fixed;
+  width: 0px;
+  border-radius: 75px;
+  border: 0px solid LightWhite;
+  background-color: #3ba136
+}
+
+
+.btn {
+  border-radius: 75px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 12px 26px;
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+
+.btn1 {
+  border-radius: 75px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 12px 32px;
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.btn2 {
+  border-radius: 75px;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.domov {background-color: #ff9800;}
+.domov:hover {background: #e68a00;}
+
+.serije {background-color: #2196F3;}
+.serije:hover {background: #0b7dda;}
+
+.kontakt {background-color: #f44336;}
+.kontakt:hover {background: #da190b;}
+
+
+
+.bten {
+  width: 130px;
+  border-radius: 75px;
+  border: none;
+  color: white;
+  padding: 12px 26px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.bten1 {
+  width: 130px;
+  border-radius: 75px;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.bten2 {
+  width: 130px;
+  border-radius: 75px;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+
+
+
+
+h1.title {
+  margin-top: 15px;
+  padding: 4px;
+  width: 910px;
+  height: 160px;
+  font-size: 115px;
+  font-family: Arial Black;
+  color: green;
+  text-align: center;
+  -webkit-text-stroke: 3px black;
+  transition: .2s;
+}
+
+h1.title:hover {font-size: 120px; -webkit-text-stroke: 4px white; color: darkgreen; text-shadow: 1px 1px 25px green; width: 925px; height: 165px;}
+
+
+
+.center {
+  margin: auto;
+  width: 70%;
+  border: 2px solid green;
+  color: white;
+  font-size: 30px;
+  font-family: Calibri;
+  padding: 10px;
+  opacity: 0.9;
+  background-color: hsla(0, 0%, 10%, 0.98);
+}
+
+
+
+
+
+.mss {
+  top: 0;
+  position: absolute;
+  position: fixed;
+  position: sticky;
+  position: webkit-sticky;
+  margin: 0 auto;
+  z-index: 1;
+  width: auto;
+  height: 230px;
+  border-bottom: 1px solid orange;
+  background-color: hsla(0, 0%, 10%, 0.98);
+  padding: 15px 5px;
+  transition: .2s;
+}
+.mss:hover{background-color: hsla(0, 0%, 15%, 0.99); border-bottom: 2px solid orange;}
+.mss:hover .ss{transition: .2s; border: 1px solid orange; color: orange; opacity: 1;}
+.mss:hover .btn{opacity: 1;}
+.mss:hover .btn1{opacity: 1;}
+
+
+
+
+
+
+
+
